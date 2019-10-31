@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_menu"
+    tools:context=".AddActivity">
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="161dp"
+        android:layout_height="174dp"
+        android:src="@drawable/movie"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="314dp"
+        android:layout_height="210dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wall"
+        app:layout_constraintBottom_toTopOf="@+id/save_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/date_editText"
+        app:layout_constraintEnd_toEndOf="@+id/date_editText"
+        app:layout_constraintStart_toStartOf="@+id/date_editText" />
+
+    <EditText
+        android:id="@+id/date_editText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Date"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/des_editText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/des"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/date_editText"
+        app:layout_constraintStart_toStartOf="@+id/date_editText"
+        app:layout_constraintTop_toBottomOf="@+id/date_editText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

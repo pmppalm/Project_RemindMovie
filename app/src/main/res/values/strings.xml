@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Remind Movie</string>
+    <string name="save">SAVE</string>
+    <string name="name">Name Movie</string>
+    <string name="Date">Date</string>
+    <string name="des">Description</string>
+    <string name="add">ADD</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Date">วันที่</string>
+    <string name="des">คำอธิบาย</string>
+    <string name="name">ชื่อภาพยนต์</string>
+    <string name="save">บันทึก</string>
+    <string name="add">เพิ่ม</string>
+</resources>
