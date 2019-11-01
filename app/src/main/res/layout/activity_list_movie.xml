@@ -7,39 +7,36 @@
     android:background="#FF09112A"
     tools:context=".AddActivity">
 
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/movie_recycler_view"
+        app:layout_constraintTop_toBottomOf="@+id/movie_recycler_view" />
+
     <TextView
         android:id="@+id/app_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="REMIND MOVIE"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/list"
-        app:layout_constraintEnd_toEndOf="@+id/list"
+        app:layout_constraintBottom_toTopOf="@+id/movie_recycler_view"
+        app:layout_constraintEnd_toEndOf="@+id/movie_recycler_view"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/movie_recycler_view"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/list"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/list" />
-
-    <ListView
-        android:id="@+id/list"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/movie_recycler_view"
         android:layout_width="0dp"
         android:layout_height="600dp"
-        app:layout_constraintBottom_toTopOf="@+id/save_button"
+        app:layout_constraintBottom_toTopOf="@+id/add_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

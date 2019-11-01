@@ -7,17 +7,6 @@
     android:background="@drawable/add_menu"
     tools:context=".AddActivity">
 
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="161dp"
@@ -74,5 +63,16 @@
         app:layout_constraintEnd_toEndOf="@+id/date_editText"
         app:layout_constraintStart_toStartOf="@+id/date_editText"
         app:layout_constraintTop_toBottomOf="@+id/date_editText" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
