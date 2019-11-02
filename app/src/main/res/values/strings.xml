@@ -5,4 +5,5 @@
     <string name="Date">Date</string>
     <string name="des">Description</string>
     <string name="add">ADD</string>
+    <string name="details_app">MOVIE DETAIL</string>
 </resources>

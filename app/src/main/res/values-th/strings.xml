@@ -5,4 +5,5 @@
     <string name="name">ชื่อภาพยนต์</string>
     <string name="save">บันทึก</string>
     <string name="add">เพิ่ม</string>
+    <string name="details_app">รายละเอียดภาพยนตร์</string>
 </resources>

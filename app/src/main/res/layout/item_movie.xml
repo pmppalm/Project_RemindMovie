@@ -30,6 +30,8 @@
         android:paddingStart="?android:attr/listPreferredItemPaddingStart"
         android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/logo_image_view"
         app:layout_constraintTop_toTopOf="@+id/logo_image_view"
@@ -42,6 +44,8 @@
         android:paddingStart="?android:attr/listPreferredItemPaddingStart"
         android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
         android:text="@string/Date"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/movie_name_textView"
         app:layout_constraintTop_toBottomOf="@+id/movie_name_textView" />
 
