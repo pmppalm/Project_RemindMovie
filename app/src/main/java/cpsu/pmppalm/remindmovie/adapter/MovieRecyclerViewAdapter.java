@@ -50,10 +50,8 @@ public class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycler
 
     class MyViewHolder extends RecyclerView.ViewHolder {
 
-        // private ImageView ledgerTypeImageView;
         private TextView nameTextView;
         private TextView dateTextView;
-        //private TextView descriptionTextView;
 
         private MovieItem movieItem;
 
@@ -62,7 +60,6 @@ public class MovieRecyclerViewAdapter extends RecyclerView.Adapter<MovieRecycler
 
             this.nameTextView = itemView.findViewById(R.id.movie_name_textView);
             this.dateTextView = itemView.findViewById(R.id.date_textView);
-            //this.descriptionTextView = itemView.findViewById(R.id.des_textView);
         }
     }
 }
